@@ -90,6 +90,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = Mainwindow()
     window.show()
-    app.setWindowIcon(QPixmap(resource_path("src/icon/cursor.ico")))    
+    app.setWindowIcon(QPixmap(resource_path("icon/cursor.ico")))    
     app.setStyle("Fusion")
     app.exec()
